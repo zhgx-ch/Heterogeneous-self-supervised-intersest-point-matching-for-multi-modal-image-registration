@@ -1,0 +1,20 @@
+data:
+    name1: 'Testa'
+    name2: 'Testb'
+    cache_in_memory: false
+    validation_size: 100
+
+model:
+    name: 'super_point_modify'
+    batch_size: 1
+    eval_batch_size: 1
+    learning_rate: 0.0001
+    lambda_d: 0.05
+    lambda_p: 0.0005
+    positive_margin: 1
+    negative_margin: 0.2
+    
+    lambda_loss: 10000
+    detection_threshold: 0.02
+    nms: 4
+eval_iter: -1
